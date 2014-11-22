@@ -179,7 +179,7 @@ elif selres_set >= 0 and p576 != '':
     lsres = '576P'
 listitem1=xbmcgui.ListItem (label='HKTV',path=directsurl)
 listitem1.setInfo('video', {'Title': 'HKTV ' + lsres})
-player1 = xbmc.Player(xbmc.PLAYER_CORE_AUTO)
+player1 = xbmc.Player(xbmc.PLAYER_CORE_DVDPLAYER)
 __addon__       = xbmcaddon.Addon()
 __addonname__   = __addon__.getAddonInfo('name')
 __icon__        = __addon__.getAddonInfo('icon')

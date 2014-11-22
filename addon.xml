@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.hktv"
+  name="HKTV香港電視"
+  version="0.0.2"
+  provider-name="ip4368Tau">
+  <extension point="xbmc.python.pluginsource" library="hktv.py">
+  <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>HKTV香港電視 plugin</summary>
+    <summary lang="zh">香港電視</summary>
+    <description>hktv plugin, python script</description>
+    <description lang="zh">HKTV香港電視，python脚本</description>
+    <disclaimer>For demonstration only</disclaimer>
+  </extension>
+</addon>
